@@ -1,0 +1,21 @@
+# local databases and data
+*.duckdb
+*.duckdb.wal
+*.db
+*.sqlite
+data/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# secrets
+.env
